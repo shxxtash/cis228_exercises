@@ -1,15 +1,12 @@
 import 'package:flutter/material.dart';
-import 'myHomePage.dart';
 
-void main() {
-  runApp(MyApp());
-}
+import 'myHomePage.dart';
 
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'KOTODA',
+      title: 'My App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
